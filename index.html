@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Maqbool Patel" content="width=device-width, initial-scale=1.0">
+       <title> My Portfolio  </title>
+       <!-- <h1 style="color: chartreuse;">My Portfolio</h1> -->
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#CONTACT">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section" class="font-semibold text-justify ">
+        <h1>Welcome to <br> My Portfolio</h1>
+        <p>Hii I'am <span>Maqbool Patel</span>...</p>
+
+        <!-- <a href="#contact" class="btn">Hello Friend</a> -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class=" text-3xl font-semibold  ">About Me</h2>
+        <!-- Used Inline CSS -->
+        <p style="color: rgb(20, 20, 248) ;"> 
+            Hello! Myself Maqbool Patel, a backend developer with a love for building user-friendly and visually appealing websites. 
+            I have experience in Java, Python,SQL,Machine Learning, HTML, CSS, JavaScript and frameworks like React and Mongodb.
+        </p>
+    </section>
+
+     <!-- Education Section -->
+     <section id="Education" class="education-section">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education">
+                <!-- <img src="images1.png" alt="Project 1"> -->
+                <h3>Post Graduate : MCA</h3>
+                <p>Completed Master of Computer Application  form Birla Institute of Technology Mesra, Ranchi.</p>
+            </div>
+            <div class="education">
+                <!-- <img src="face.png" alt="Project 2"> -->
+                <h3>Graduation : BSc</h3>
+                <p>Completed Bechlour of Science form Devi Aheliya Vishwavidhyalaya, Indore.</p>
+            </div>
+            <div class="education">
+                <!-- <img src="email.png" alt="Project 3"> -->
+                <h3>School : 10th and 12th</h3>
+                <p>Completed My hole school from  Jawahar Navodaya Vidhyalaya Manpur, Indore.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images1.png" alt="Project 1">
+                <h3>First : FarmSaver App</h3>
+                <p>Imoplement a Machine Learning-Based solutioon to detectplant diseases an provide crop recommendation.</p>
+            </div>
+            <div class="project-card">
+                <img src="face.png" alt="Project 2">
+                <h3>Second : Face_Detect</h3>
+                <p>Developed a facial recognisation attendance System(Hackathon).</p>
+            </div>
+            <div class="project-card">
+                <img src="email.png" alt="Project 3">
+                <h3>Third : Email_Spam Classification</h3>
+                <p>Develop a amchine Learning model to classify emails into 'Spam or Ham'.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="CONTACT" class="contact-section">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Maqbool Patel" required>
+            <input type="email" name="email" placeholder="maqbool.patel@digiprima.co" required>
+            <textarea name="message" placeholder="Hello Have a Good Day" rows="3" required></textarea>
+            <button class="btn">Let's Done Together</button>
+        </form>
+    </section>
+    <h1 class="text-3xl font-bold px-4 my-4">
+        Hello  tailwindcss
+      </h1>
+      <div class="table-container font-bold">
+        <h2 class="text-5xl text-center text-lime-900 mb-4">Records</h2>
+        <table class="min-w-full  text-3xl   border-collapse border-4 border-green-600 bg-green-400">
+          <thead class="divide-y divide-green-500">
+            <tr>
+              <th class="border-r border-green-500 px-4 py-2">College</th>
+              <th class="border-r border-green-500 px-4 py-2">Class</th>
+              <th class="border-r border-green-500 px-4 py-2">Percentage(%)</th>
+              <th class=" px-4 py-2">Year</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-green-500 text-center">
+            <tr>
+              <td class="border-r border-green-500 px-4 py-2">BIT Mesra</td>
+              <td class="border-r border-green-500 px-4 py-2">MCA</td>
+              <td class="border-r border-green-500 px-4 py-2">81.20</td>
+              <td class="px-4 py-2">2024</td>
+            </tr>
+            <tr>
+              <td class="border-r border-green-500 px-4 py-2">DAVV, Indore</td>
+              <td class="border-r border-green-500 px-4 py-2">BSc</td>
+              <td class="border-r border-green-500 px-4 py-2">65.50</td>
+              <td class="px-4 py-2">2020</td>
+            </tr>
+            <tr>
+              <td class="border-r border-green-500 px-4 py-2">JNV</td>
+              <td class="border-r border-green-500 px-4 py-2">12th</td>
+              <td class="border-r border-green-500 px-4 py-2">63.66</td>
+              <td class="px-4 py-2">2017</td>
+            </tr>
+            <tr>
+              <td class="border-r border-green-500 px-4 py-2">JNV</td>
+              <td class="border-r border-green-500 px-4 py-2">10th</td>
+              <td class="border-r border-green-500 px-4 py-2">79.80</td>
+              <td class="px-4 py-2">2015</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h5 class=" px-4 text-5xl text-black-600 my-4">Skills</h5>
+    <div id="skills" class="bg-slate-300  text-3xl h-70 w-1/2 my-3 mx-4 py-4 font-semibold">
+        <div>Java </div>
+        <div>SQL</div>
+        <div>Python</div>
+        <div>Machine Learning</div>
+        <div>HTML/CSS </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="/script.js"></script>
+</body>
+</html>
